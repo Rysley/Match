@@ -1,9 +1,12 @@
 var MatchGame = {};
+var cardArray = [];
 
+for (cardArray = 1; cardArray <= 8; cardArray++) {
+  cardArray.push();
+}
 /*
   Sets up a new game after HTML document has loaded.
   Renders a 4x4 board of cards.
-*/
 
 /*
   Generates and returns an array of matching card values.
