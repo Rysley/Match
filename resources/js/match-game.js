@@ -1,9 +1,14 @@
 var MatchGame = {};
-var cardArray = [];
+var cardArray = [0,0,0,0,0,0,0,0];
 
-for (cardArray = 1; cardArray <= 8; cardArray++) {
-  cardArray.push();
+
+for (var cardIndex = 0; cardIndex <= 7; cardIndex++) {
+  /*cardArray[0] = cardArray[0] + cardArray;*/
+  /*console.log(cardArray[4]);*/
+  cardArray[cardIndex] = cardArray[cardIndex] + cardIndex + 1;
 }
+
+  console.log(cardArray);
 /*
   Sets up a new game after HTML document has loaded.
   Renders a 4x4 board of cards.
